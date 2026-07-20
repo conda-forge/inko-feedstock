@@ -1,5 +1,5 @@
 context:
-  version: "0.20.0"
+  version: "0.21.0"
 
 package:
   name: inko
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/inko-lang/inko/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 19cef883272556d136d6866be6b96e6a45dafe414e8d3bfcadafc1ad3192b02b
+  sha256: 1579da0710a496238507ba58bebef2b0f67746b0d5b5792ed8b2e17fe7003858
   patches:
     - patches/0001-locate-std-and-runtime-relative-to-executable.patch
 
