@@ -10,7 +10,7 @@ source:
   sha256: 6d73f93a7331ef9111d7bf8a3665059ccda25a33a6f2bd723a7aa2ab83b22259
 
 build:
-  number: 0
+  number: 1
   skip: win
   script:
     interpreter: nu
